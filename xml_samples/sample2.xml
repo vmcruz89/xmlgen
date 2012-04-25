@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!DOCTYPE issue PUBLIC "-//PKP//OJS Articles and Issues 
+
+XML//EN" "http://pkp.sfu.ca/ojs/dtds/native.dtd"> 
+
+<issue published="true" current="false"> 
+
+<title>Vol 1, No 1 (2000)</title> 
+
+<volume>1</volume> 
+
+<number>1</number> 
+
+<year>2000</year> 
+
+<section> 
+
+<title locale="pt_BR">A Teste Section</title> 
+
+<abbrev locale="pt_BR">TS</abbrev> 
+
+<article> 
+
+<title>Article Title text</title> 
+
+<abstract>Article abstract text</abstract> 
+
+<pages>Article page range</pages> 
+
+<date_published>2000-01-01</date_published> 
+
+<author primary_contact="true"> 
+
+<firstname>Jane</firstname> 
+
+<middlename>S.</middlename> 
+
+<lastname>Jones</lastname> 
+
+<email>janejones@yoursite.com</email> 
+
+</author> <htmlgalley> 
+
+<label>HTML</label> 
+
+<file><href mime_type="text/html" 
+
+src="http://ebape.fgv.br/sites/ebape.fgv.br/files/manual_aluno.pdf" /></file>
+
+</htmlgalley> 
+
+</article> 
+
+</section> 
+
+<section> 
+
+<title locale="pt_BR">New Section</title> 
+
+<abbrev locale="pt_BR">NS</abbrev> 
+
+<article> 
+
+<title>Article Title text</title> 
+
+<abstract>Article abstract text</abstract> 
+
+<pages>Article page range</pages> 
+
+<date_published>2000-01-01</date_published> 
+
+<author primary_contact="true"> 
+
+<firstname>John</firstname> 
+
+<middlename>S.</middlename> 
+
+<lastname>Smith</lastname> 
+
+<email><![CDATA[ ]]></email> 
+
+</author> 
+
+<author> 
+
+<firstname>May</firstname> 
+
+<middlename>B.</middlename> 
+
+<lastname>Brown</lastname> 
+
+<email><![CDATA[ ]]></email> 
+
+</author> 
+
+<galley> 
+
+<label>PDF</label> 
+
+<file><href mime_type="application/pdf" 
+
+src="http://ebape.fgv.br/sites/ebape.fgv.br/files/manual_aluno.pdf" /></file> 
+
+</galley> 
+
+</article> 
+
+</section> 
+
+</issue>

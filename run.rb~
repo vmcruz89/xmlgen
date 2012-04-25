@@ -1,0 +1,52 @@
+# run.rb
+require 'sinatra'
+require 'rubygems'
+require 'builder'
+
+get "/" do
+  #  erb :generator
+  redirect '/generator'
+end
+
+get "/generator" do
+  erb :generator
+end
+
+post "/generator" do
+  def generate_xml
+    xml = Builder::XmlMarkup.new( :indent => 2 )
+    xml.instruct! :xml, :encoding => "UTF-8"
+    xml.declare! :DOCTYPE, :issue, :PUBLIC, "-//PKP//OJS Articles and Issues XML//EN", "http://pkp.sfu.ca/ojs/dtds/native.dtd"
+    xml.issue("published"=>"true", "current"=>"false") do |i|
+      i.title(params[:title])
+      i.volume params[:volume]
+      i.number params[:number]
+      i.year params[:year]
+      xml.section do |s|
+        s.title(params[:tit_section],"locale"=>"pt-BR")
+        s.abbrev(params[:abbrev],"locale"=>"pt_BR")
+        xml.article do |a|
+          a.title params[:tit_art]
+          a.abstract params[:abstract]
+          a.pages params[:pages]
+          a.date_published params[:data_published]
+          xml.author do |t|
+            t.firstname params[:firstname]
+            t.middlename params[:middlename]
+            t.lastname params[:lastname]
+            t.email params[:email]
+          end
+          xml.htmlgalley do |h| 
+            h.label params[:filename]
+            xml.file do |f|           
+              f.filepath params[:filepath]
+            end  
+          end
+        end
+      end
+    end
+  end
+    result = generate_xml
+    File.open('download.xml', 'w') {|f| f.write(result) }
+    send_file 'download.xml'
+end

@@ -1,0 +1,16 @@
+#top {
+background: light-green;
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 2px solid;
+font: big-caps 50px/50px "Arial";
+color: #155;
+text-align: center;
+}
+a {
+  color: green;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+   }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE issue PUBLIC "-//PKP//OJS Articles and Issues XML//EN" "http://pkp.sfu.ca/ojs/dtds/native.dtd">
+<issue published="true" current="false">
+  <title>j</title>
+  <volume>j</volume>
+  <number>j</number>
+  <year>j</year>
+  <section>
+    <title locale="pt-BR">j</title>
+    <abbrev>j</abbrev>
+    <article>
+      <title>j</title>
+      <abstract>j</abstract>
+      <pages>j</pages>
+      <date_published>j</date_published>
+      <author>
+        <firstname>j</firstname>
+        <middlename>j</middlename>
+        <lastname>j</lastname>
+        <email>j</email>
+      </author>
+      <htmlgalley>
+        <label>j</label>
+        <file>
+          <filepath>j</filepath>
+        </file>
+      </htmlgalley>
+    </article>
+  </section>
+</issue>
