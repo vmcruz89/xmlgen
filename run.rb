@@ -23,7 +23,7 @@ post "/generator" do
       i.number params[:number]
       i.year params[:year]
       xml.section do |s|
-        s.title(params[:tit_section],"locale"=>"pt-BR")
+        s.title(params[:tit_section],"locale"=>"pt_BR")
         s.abbrev(params[:abbrev],"locale"=>"pt_BR")
         xml.article do |a|
           a.title params[:tit_art]
@@ -38,8 +38,8 @@ post "/generator" do
           end
           xml.htmlgalley do |h| 
             h.label params[:filename]
-            xml.file do |f|           
-              f.filepath params[:filepath]
+            xml.file do            
+              xml.href("mime_type" => "text/html", "src"=> params[:filepath])
             end  
           end
         end

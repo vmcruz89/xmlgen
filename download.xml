@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE issue PUBLIC "-//PKP//OJS Articles and Issues XML//EN" "http://pkp.sfu.ca/ojs/dtds/native.dtd">
 <issue published="true" current="false">
-  <title>l</title>
-  <volume>l</volume>
-  <number>l</number>
-  <year>l</year>
+  <title>Edição de Maio</title>
+  <volume>X</volume>
+  <number>1</number>
+  <year>2012</year>
   <section>
-    <title locale="pt-BR">l</title>
-    <abbrev locale="pt_BR">l</abbrev>
+    <title locale="pt_BR">Artigo</title>
+    <abbrev locale="pt_BR">ART</abbrev>
     <article>
-      <title>l</title>
-      <abstract>l</abstract>
-      <pages>l</pages>
-      <date_published>l</date_published>
+      <title>Por uma nova interpretação das mudanças de paradigma na administração pública</title>
+      <abstract>O objetivo deste ensaio é identificar e aprofundar a análise dos paradigmas presentes no campo teórico da administração pública no Brasil. Além de salientar as transformações, trata-se de demonstrar a continuidade paradigmática presente nos estudos do campo em questão. A hipótese central deste texto é de que, embora tenhamos assistido a mudanças paradigmáticas nas duas últimas décadas, o campo da administração pública ainda é dominado – assim como nas ciências sociais e na teoria de organizações – por uma concepção funcionalista da ciência. Para demonstrar essa hipótese, utilizamos a seguinte metodologia para construção do argumento epistemológico e consequentemente para elaboração deste ensaio: (i) Partimos de um diálogo com o trabalho de Keinert (1994, 2000), fazendo uma leitura que aponta os limites e busca complementar o mesmo; (ii) examinamos criticamente a trajetória do campo da administração pública no Brasil e as diferentes correntes teóricas que o compõem, com base no modelo de paradigmas construído por Burrell e Morgan (2008); (iii) analisamos então quatro correntes principais que compõem hoje o campo, as quais denominamos de Estadocêntrica; Pluralista; Nova Administração Pública e Novo Serviço Público, caracterizando cada uma delas e identificando os paradigmas nos quais elas estão ancoradas. Para concluir, apresentamos uma síntese, demonstrando o predomínio do paradigma funcionalista no campo da administração pública brasileira e chamando a atenção para a necessidade de se pensar novos caminhos metateóricos pouco explorados (CALDAS, 2007), tendo como inspiração referenciais críticos e interpretativos.</abstract>
+      <pages>3</pages>
+      <date_published>08/05/2012</date_published>
       <author primary_contact="true">
-        <firstname>l</firstname>
-        <middlename>l</middlename>
-        <lastname>l</lastname>
-        <email>l</email>
+        <firstname>Carolina</firstname>
+        <middlename></middlename>
+        <lastname>Andion</lastname>
+        <email>carolina.andion@mail.br</email>
       </author>
       <htmlgalley>
-        <label>l</label>
+        <label>Exploratory Testing</label>
         <file>
-          <filepath>l</filepath>
+          <href mime_type="text/html" src="http://www.satisfice.com/articles/et-article.pdf"/>
         </file>
       </htmlgalley>
     </article>
